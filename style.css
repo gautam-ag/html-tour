@@ -32,3 +32,17 @@ li a{
       padding: 16px;
       
 }
+.rough{
+    color: black;
+    background-color: aliceblue;
+    padding: 2px;
+    border-width: 1px;
+}
+#kalinga {
+    color: red;
+    background-color: yellowgreen;
+    padding: 3px;
+    border: none;
+    display: block;
+    text-decoration: wavy;
+}

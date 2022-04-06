@@ -51,5 +51,50 @@
                 }
             </script>
         </div>
+        <hr>
+        <h2>forms</h2>
+        <div>
+            <form target="_blank" autocomplete="on">
+        <fieldset style="width:30%">        
+            <label for="fname">fname</label>
+            <input type="text" name="fname" id="fname"><br>
+            <label for="lname">lname</label>
+            <input type="text" name="lname" id="lname"><br>
+            <input type="submit" value="submit"><br>
+        </fieldset>    
+            <label for="cars">choose a car</label>
+            <select id="cars" name="cars" size="3" multiple>
+                <option value="volvo">volvo</option>
+                <option value="saab">saab</option>
+                <option value="fiat">fiat</option>
+                <option value="audi">audi</option>
+            </select>
+            <button type="button" onclick="alert('hello good boy')">click me!
+            </form>
+        </div>
+        <div>
+            <form formtarget="_blank" autocomplete="on">
+                <fieldset style="border: 1px solid black; width: 30%;">
+                    <label for="Fname">FIRST NAME:</label>
+                    <input type="text" id="Fname" name="Fname" required placeholder="Firstname"><br>
+                    <label for="Lname">LAST NAME:</label>
+                    <input type="text" id="Lname" name="Lname"><br>
+                    <input list="branch" name="branch">
+                    <datalist id="branch">
+                        <option value="E&I"></option>
+                        <option value="CSE"></option> 
+                        <option value="ELECTRICAl"></option>
+                        <option value="IT"></option>   
+                    </datalist>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <form>
+                <label for="birthday">birthday:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
     </body>
 </html>
